@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="463490e7-73ce-4ec9-abc1-de871d7c9f16" name="Changes" comment="v0.11">
-      <change beforePath="$PROJECT_DIR$/src/GoogleDriveUploader.java" beforeDir="false" />
+    <list default="true" id="463490e7-73ce-4ec9-abc1-de871d7c9f16" name="Changes" comment="v0.12">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CargaInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CargaInicial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <workItem from="1674467439652" duration="272000" />
       <workItem from="1674467778974" duration="1749000" />
       <workItem from="1674475163869" duration="1905000" />
-      <workItem from="1674557100482" duration="709000" />
+      <workItem from="1674557100482" duration="2340000" />
     </task>
     <task id="LOCAL-00001" summary="v0.2">
       <created>1674557851191</created>
@@ -81,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674557898962</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v0.11">
+      <created>1674557967948</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674557967948</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v0.1" />
     <MESSAGE value="v0.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.11" />
+    <MESSAGE value="v0.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.12" />
   </component>
 </project>
