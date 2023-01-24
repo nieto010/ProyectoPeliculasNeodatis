@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class Genero {
     private String nombre;
     private String descripcion;
@@ -30,14 +27,6 @@ public class Genero {
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
-
-    /*public List<Pelicula> getPeliculas() {
-        return peliculas;
-    }
-
-    public void setPeliculas(List<Pelicula> peliculas) {
-        this.peliculas = peliculas;
-    }*/
 
     @Override
     public String toString() {
