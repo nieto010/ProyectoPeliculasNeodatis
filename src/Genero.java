@@ -4,12 +4,12 @@ import java.util.List;
 public class Genero {
     private String nombre;
     private String descripcion;
-    private List<Pelicula> peliculas;
+    //private List<Pelicula> peliculas;
 
-    public Genero(String nombre, String descripcion, ArrayList<Pelicula> peliculas) {
+    public Genero(String nombre, String descripcion/*, ArrayList<Pelicula> peliculas*/) {
         this.nombre = nombre;
         this.descripcion = descripcion;
-        this.peliculas = peliculas;
+        //this.peliculas = peliculas;
     }
 
     public Genero() {
@@ -31,20 +31,19 @@ public class Genero {
         this.descripcion = descripcion;
     }
 
-    public List<Pelicula> getPeliculas() {
+    /*public List<Pelicula> getPeliculas() {
         return peliculas;
     }
 
     public void setPeliculas(List<Pelicula> peliculas) {
         this.peliculas = peliculas;
-    }
+    }*/
 
     @Override
     public String toString() {
-        return "Genero: " +
-                "Nombre='" + nombre + '\'' +
-                ", Descripcion='" + descripcion + '\'' +
-                ", Peliculas=" + peliculas +
+        return "Genero{" +
+                "nombre='" + nombre + '\'' +
+                ", descripcion='" + descripcion + '\'' +
                 '}';
     }
 }
