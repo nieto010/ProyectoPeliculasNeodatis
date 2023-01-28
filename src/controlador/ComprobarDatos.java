@@ -152,4 +152,16 @@ public class ComprobarDatos {
 		return edad;
 	}
 
+	public static boolean comprobarNumeroMenu(String opcionMenu) {
+		return opcionMenu.matches("[0-9]");
+	}
+
+	public static boolean comprobarNumeroDouble(String numero){
+		return numero.matches("[0-9].[0-9]") || numero.matches("[0-9]");
+	}
+
+	public static boolean comprobarBoolean(String booleano) {
+		return booleano.equalsIgnoreCase("true") || booleano.equalsIgnoreCase("false");
+	}
+
 }
