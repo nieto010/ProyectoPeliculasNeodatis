@@ -1,8 +1,8 @@
 package vista;
 
-import controlador.Buscar;
+
 import controlador.CargaAutomatica;
-import controlador.Insertar;
+import controlador.Listar;
 
 public class Principal {
 
@@ -11,6 +11,8 @@ public class Principal {
 		//Insertar.insertarPeliculas();ç
 		//Buscar.buscarPelicula();
 		//Buscar.buscarGenero();
+		//CargaAutomatica.cargaInicial();
+		Listar.listarNombreGenero();
 	}
 
 }
