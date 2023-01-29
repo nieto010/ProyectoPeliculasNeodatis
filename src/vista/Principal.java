@@ -12,7 +12,7 @@ public class Principal {
 		//Buscar.buscarPelicula();
 		//Buscar.buscarGenero();
 		//CargaAutomatica.cargaInicial();
-		Listar.listarNombreGenero();
+		//Listar.listarNombreGenero();
 	}
 
 }

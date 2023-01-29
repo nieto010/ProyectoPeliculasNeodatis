@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="463490e7-73ce-4ec9-abc1-de871d7c9f16" name="Changes" comment="v0.23">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peliculas.neo" beforeDir="false" afterPath="$PROJECT_DIR$/peliculas.neo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controlador/Listar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlador/Listar.java" afterDir="false" />
+    <list default="true" id="463490e7-73ce-4ec9-abc1-de871d7c9f16" name="Changes" comment="v0.24">
       <change beforePath="$PROJECT_DIR$/src/vista/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vista/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +99,7 @@
       <workItem from="1674475163869" duration="1905000" />
       <workItem from="1674557100482" duration="7860000" />
       <workItem from="1674636715794" duration="1224000" />
-      <workItem from="1674907499320" duration="4212000" />
+      <workItem from="1674907499320" duration="4473000" />
     </task>
     <task id="LOCAL-00001" summary="v0.2">
       <created>1674557851191</created>
@@ -195,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674910877045</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="v0.24">
+      <created>1674912012521</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674912012521</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,14 +219,15 @@
     <MESSAGE value="v0.21" />
     <MESSAGE value="v0.22" />
     <MESSAGE value="v0.23" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.23" />
+    <MESSAGE value="v0.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/controlador/Listar.java</url>
-          <line>25</line>
+          <line>24</line>
           <properties class="controlador.Listar" method="listarNombreGenero">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
