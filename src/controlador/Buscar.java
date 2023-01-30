@@ -29,6 +29,7 @@ public class Buscar {
 
 		while(seguir) {
 			try {
+				Listar.listarNombrePelicula();
 				odb = ODBFactory.open("peliculas.neo");
 				System.out.println("Introduce el nombre de la película: ");
 				nombre = br.readLine();
@@ -94,6 +95,7 @@ public class Buscar {
 
 		while(seguir) {
 			try {
+				Listar.listarNombreGenero();
 				odb = ODBFactory.open("peliculas.neo");
 				System.out.println("Introduce el nombre del género: ");
 				nombre = br.readLine();

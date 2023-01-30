@@ -20,6 +20,7 @@ public class Listar {
         for (Pelicula pelicula : peliculas) {
             System.out.println(pelicula.getNombrePelicula());
         }
+        odb.close();
     }
     
     public static void listarNombreGenero() {

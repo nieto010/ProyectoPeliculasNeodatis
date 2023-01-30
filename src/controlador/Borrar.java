@@ -15,7 +15,7 @@ import java.io.InputStreamReader;
 
 public class Borrar {
 
-    private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    public static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static String nombre;
     private static ODB odb = null;
     private static String continuar;

@@ -41,11 +41,10 @@ public class Modificar {
                 genero.setNombre(nombreGenero);
                 odb.store(genero);
             }
-            odb.close();
         } else {
             System.out.println("Nombre no valido para el genero");
         }
-
+        odb.close();
     }
 
     public static void modificarDescripcion(String nombreGeneroModificar) { //Metodo para modificar la descripcion del genero
@@ -65,10 +64,11 @@ public class Modificar {
                 genero.setDescripcion(descripcionGenero);
                 odb.store(genero);
             }
-            odb.close();
+
         } else {
             System.out.println("Descripcion no valida para el genero");
         }
+        odb.close();
     }
 
     //Peliculas
@@ -89,10 +89,11 @@ public class Modificar {
                 pelicula.setNombrePelicula(nombrePelicula);
                 odb.store(pelicula);
             }
-            odb.close();
+
         } else {
             System.out.println("Introduzca un nombre de pelicula correcto");
         }
+        odb.close();
     }
 
     public static void modificarDirectorPelicula(String nombrePeliculaModificar) { //Metodo para modificar el director de la pelicula
@@ -112,10 +113,11 @@ public class Modificar {
                 pelicula.setDirector(nombreDirector);
                 odb.store(pelicula);
             }
-            odb.close();
+
         } else {
             System.out.println("Nombre de director no valido");
         }
+        odb.close();
     }
 
     public static void modificarSipnosisPelicula(String nombrePeliculaModificar) { //Metodo para modificar la sinopsis de la pelicula
@@ -158,10 +160,10 @@ public class Modificar {
                 pelicula.setDuracion(duracionValida);
                 odb.store(pelicula);
             }
-            odb.close();
         } else {
             System.out.println("La duracion no es valida");
         }
+        odb.close();
     }
 
     public static void modificarValoracionPelicula(String nombrePeliculaModificar) { //Metodo para modificar la valoracion de la pelicula
@@ -185,11 +187,10 @@ public class Modificar {
                 pelicula.setValoracion(valoracionValida);
                 odb.store(pelicula);
             }
-            odb.close();
         } else {
             System.out.println("La valoracion no es valida");
         }
-
+        odb.close();
     }
 
     public static void modificarFechaEstrenoPelicula(String nombrePeliculaModificar) { // Metodo para modificar la fecha de estreno de la pelicula
@@ -209,10 +210,10 @@ public class Modificar {
                 pelicula.setFechaEstreno(fechaPelicula);
                 odb.store(pelicula);
             }
-            odb.close();
         } else {
             System.out.println("Formato de fecha no valido");
         }
+        odb.close();
     }
 
     public static void modificarPublicoPelicula(String nombrePeliculaModificar) { //Metodo para modificar si la pelicula es para mayor de edad
@@ -231,7 +232,7 @@ public class Modificar {
                     pelicula.setMayorDeEdad(mayorDeEdadValido);
                     odb.store(pelicula);
                 }
-                odb.close();
+
             } else {
                 System.err.println("Introduce true o false");
             }
@@ -239,6 +240,7 @@ public class Modificar {
         } catch (IOException ioe) {
             System.out.println("Error");
         }
+        odb.close();
 
     }
 
